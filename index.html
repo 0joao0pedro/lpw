@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<htmml>
+<html>
 
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="pag-principal.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <title> LPW </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="imagens/icone.jpg">
+        <title> QUIsite </title>
     </head>
 
     <body>
         <header>
             <h1> A Química </h1>
+            <ul class="hori">
+                <li><a href="index.html" class="menu" >HOME</a></li>
+                <li><a href="pagina2.html" class="menu" >Química Orgânica
+                    e Inorgânica</a></li>
+                <li><a href="pagina3.html" class="menu" >Física-Química</a></li>
+                <li><a href="pagina4.html" class="menu" >Química Analítica</a></li>
+                <li><a href="autores.html" class="menu">Autores</a></li>
+            </ul>
         </header>
         <h2> O que é Química? </h2>
         <p>
@@ -19,18 +30,17 @@
             transformações e a energia envolvida nesses processos.
         </p>
         <h2> Qual a sua origem? </h2>
+        <div id="paratexto">
         <p>
             A origem da Química se dá pricipalmente pelos alquimistas.
             Os primeiros relatos a respeito dos Alquimistas datam de 300 a.C.
             em Alexandria e se estendem até 1500 d.C. As pessoas adeptas a
             essa crença utilizavam e uniam o conhecimento em diversas áreas
-            (Ciências, religião, medicina, astrologia e medicina) para encontrar
-            a Pedra Filosofal ou elixir da longa vida que teria o poder de transformar
+            para encontrar a Pedra Filosofal ou elixir da longa vida que teria o poder de transformar
             todos metais em ouro e conceder vida eterna. Para conseguir realizar a
             “Grande Obra”, como eles próprios se referiam ao processo, eles foram os
             pioneiros no desenvolvimento de diversas técnicas de laboratório que são
-            utilizadas até hoje (claro que de forma aprimorada). Entre essas invenções
-            estão o banho-maria, a destilação e a sublimação.
+            utilizadas até hoje. Entre essas invenções estão o banho-maria, a destilação e a sublimação.
             Entre as substâncias descobertas estão o álcool, o ácido sulfúrico e o ácido nítrico.
         </p>
         <p>
@@ -40,8 +50,14 @@
             mais conhecido como Paracelso. Ele se dedicava a combater doenças
             através da criação de medicamentos à base de fontes minerais.
         </p>
-        <img id="paracelso" src="Paracelsus.jpg" width="300">
+    </div>
+        <div id="imagem">
+        <img  src="imagens/Paracelsus.jpg" width="300" >
+    </div>
+    <div id="legenda">
         <p>"Paracelsus"</p>
+    </div>
+    
         <h2> A Evolução da Química</h2>
         <p>
             Robert Boyle e Antoine Lavoiser foram os principais e mais importantes pessoas
@@ -51,16 +67,24 @@
             que não pode ser quebrada em partes menores e se uma substância puder ser quebrada então
             não é considerada um elemento químico.
         </p>
-        <img src="Boyle.jpg" width="300">
+        <div id="imagem">
+        <img src="imagens/Boyle.jpg" width="300">
+    </div>
+    <div >
         <p>Robert Boyle, "o pai da Química</p>
+    </div>
         <p>
             Com o ínicio do século XVII, surge o fundador da Química Moderna, o francês Antoine
             Laurent Lavoisier. Entre as principais contribuições de Lavoisier para a Química Moderna
             estão a criação da Lei de Conservação das Massas, a refutação da teoria do flogístico e o
             lançamento do primeiro livro de Química Moderna, o “Tratado elementar da Química”.
         </p>
-        <img src="lavoiser.jpg" width="300">
+        <div id="imagem">
+        <img src="imagens/lavoiser.jpg" width="300" >
+    </div>
+    <div >
         <p>Antoine Laurent Lavoisier, "O fundador da Química Moderna"</p>
+    </div>
         <h3> Modelos Atômicos </h3>
         <p>
             A partir desse ponto a Química já estava consolidada como Ciência e então retornou-se
@@ -83,8 +107,12 @@
             em 1913 Henry Moseley que definiu o número atômico como guia para a disposição dos elementos na Tabela
             Peródica.
         </p>
-        <img src="tabela-periodica.png" width="300">
+        <div id="imagem">
+        <img src="imagens/tabela-periodica.png" width="300" >
+        </div>
+        <div>
         <p>Tabela Periódica atualmente</p>
+    </div>
         <h3> Radioatividade </h3>
         <p>
             Na área da radioatividade os principais estudos foram desenvolvidos por Henri Becquerel e Marie Curie e seu
@@ -108,4 +136,4 @@
         </p>
     </body>
 
-</htmml>
+</html>
