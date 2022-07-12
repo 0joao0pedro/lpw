@@ -1,21 +1,81 @@
 h1{
     text-align: center;
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 60px;
 }
-#paracelso{
-    float: right;
+#imagem{
+   text-align: center;
+   
+}
+#paratexto{
+    text-align: center;
+    text-align: justify;
+    
 }
 header{
-    background-color: blue;
-    width: 100%;
-    height: 20%;
+    background-image: url(imagens/aaa.jpg) ;
+    padding: 20px 0;
+    width:auto;
+    margin: 0 auto;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -10px;
     border: solid;
-    padding:0px;
 }
 p{
     font-size: 20px;
+    font-family: 'Mukta';
+    display: inline-block;
+    text-align: center;
+    text-align: justify;
+}
+#legenda{
+    position: absolute;
+    right: 624px;
+    top: 1140px;
 }
 li{
     font-size: 25px;
+    text-align: center;
+    text-align: justify;
+}
+body{
+  background-color: gray;
+}
+ul.hori {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0;
+}
+ul.hori > li{
+    flex: 1;
+    margin-right: 4px;
+    text-align: center;
+}
+li > a.menu{
+    font-size:1em;
+    text-decoration: none;
+    color: black;
+}
+li > a.menu:hover{
+    opacity: 0.5;
+}
+h2{
+    text-align: center;
+    font-family: 'Lobster';
+}
+h3{
+    text-align: center;
+    font-family: 'Lobster';
+}
+li > a.fonte{
+    font-size:0.8em;
+    text-decoration: none;
+    color: black;
+}
+li > a.fonte:hover{
+    opacity: 0.5;
+
 }
